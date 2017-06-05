@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="864e93bd-5c65-48d8-bf02-fd2f68632845" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/index.js" afterPath="$PROJECT_DIR$/config/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/demos.vue" afterPath="$PROJECT_DIR$/src/components/demos.vue" />
-    </list>
+    <list default="true" id="864e93bd-5c65-48d8-bf02-fd2f68632845" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -379,12 +376,12 @@
       <workItem from="1496486227997" duration="411000" />
       <workItem from="1496486881948" duration="538000" />
       <workItem from="1496630738701" duration="3043000" />
-      <workItem from="1496637513134" duration="2791000" />
+      <workItem from="1496637513134" duration="2978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6783000" />
+    <option name="totallyTimeSpent" value="6970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="30" width="949" height="826" extended-state="0" />
