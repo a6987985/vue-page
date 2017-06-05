@@ -49,36 +49,27 @@
     <div class="skill">
       <span class="skill">项目经验</span>
       <hr>
-      <div class="skillContent">
-        <div class="eachItem">
-          <span class="title"><router-link to="/">个人主页 </router-link></span>
-          <div class="content">
-            <ul>
-              <li>使用Vue-cli脚手架工具，尝试通过组件化概念进行构建单页项目</li>
-              <li>使用Vue-router，通过路由的形式，对多个页面、组件在单页中进行整合使用</li>
-            </ul>
-          </div>
-        </div>
-        <div class="eachItem">
-          <span class="title"><router-link to="/">个人主页 </router-link></span>
-          <div class="content">
-            <ul>
-              <li>使用Vue-cli脚手架工具，尝试通过组件化概念进行构建单页项目</li>
-              <li>使用Vue-router，通过路由的形式，对多个页面、组件在单页中进行整合使用</li>
-            </ul>
-          </div>
-        </div>
-        <div class="eachItem">
-          <span class="title"><router-link to="/">个人主页 </router-link></span>
-          <div class="content">
-            <ul>
-              <li>使用Vue-cli脚手架工具，尝试通过组件化概念进行构建单页项目</li>
-              <li>使用Vue-router，通过路由的形式，对多个页面、组件在单页中进行整合使用</li>
-            </ul>
-          </div>
-        </div>
+      <div style="padding: 0 50px">
+        <h4>1.个人主页</h4>
+        <ul>
+          <li>使用Vue-cli脚手架工具，尝试通过组件化概念进行构建单页项目</li>
+          <li>使用Vue-router，通过路由的形式，对多个页面、组件在单页中进行整合使用</li>
+        </ul>
+        <h4>2.JavaScript</h4>
+        <ul>
+          <li>熟悉 JavaScript的基本语法，了解Ajax请求的使用等</li>
+          <li>掌握事件模型，DOM，BOM操作</li>
+        </ul>
+        <h4>3.框架 & 工具</h4>
+        <ul>
+          <li>对Vue.js的使用有简单的了解，了解Vue.js中数据驱动，组件，路由等概念</li>
+          <li>了解Bootstrap，Element UI等常用UI框架，进行网页的响应式布局及美化</li>
+          <li>对组件化开发，webpack，有简单了解</li>
+          <li>了解Git的常用命令，使用Webstorm进行代码编写</li>
+        </ul>
       </div>
     </div>
+    
     <div class="skill">
       <span class="skill">其他技能</span>
       <hr>
@@ -97,6 +88,7 @@
         </table>
       </div>
     </div>
+
     <div class="skill">
       <span class="skill">个人介绍</span>
       <hr>
@@ -120,6 +112,7 @@
 
   </div>
 </template>
+
 <script>
   export default {
     name: 'resume',
@@ -131,83 +124,71 @@
   }
 </script>
 
-<style>
-  a {
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+  a{
     text-decoration: none;
     color: #9da4ff;
   }
-
-  h1 {
-    color: #545c69;
+  a:hover{
+    text-decoration: underline;
   }
-
-  li, td {
+  li,td{
     line-height: 1.5rem;
   }
-
-  td.title {
+  td.title{
     padding: 0 20px 0 0;
   }
-
-  div.skill div.eachItem {
+  div.skill div.eachItem{
     display: flex;
     border-bottom: 1px dashed rgb(207, 207, 207);
   }
-
-  div.skill div.skillContent ul {
-    margin: 8px 0;
+  div.skill div.skillContent ul{
+    margin:8px 0;
   }
-
-  div.skill div.skillContent span.title {
+  div.skill div.skillContent span.title{
     display: inline-block;
     width: 18%;
     vertical-align: top;
     margin: 8px 0;
   }
-
-  div.skill div.content {
+  div.skill div.content{
     display: inline-block;
-    word-wrap: break-word;
+    word-wrap:  break-word;
     width: 82%;
   }
-
-  div.skill div.skillContent {
+  div.skill div.skillContent{
     padding: 0 50px;
   }
-
-  div.skill span.skill {
+  div.skill span.skill{
     display: inline-block;
-    margin: 0 25px;
+    margin:0 25px;
     font-size: 1.5rem;
     color: #66ccff;
   }
-
-  div.skill {
+  div.skill{
     text-align: left;
-    margin: 35px 0;
+    margin:35px 0;
   }
-
-  hr {
-    border: 1px solid #d5d5d5;
+  hr{
+    border:1px solid #d5d5d5;
   }
 
   table td.title {
-    width: 100px;
+    width:100px;
   }
-
-  table td {
+  table td{
     text-align: left;
     padding: 2px 0;
   }
-
-  div.top {
+  div.top{
     text-align: center;
   }
 
-  .resume {
+  .resume{
 
     max-width: 850px;
-    margin: 0 auto;
+    margin:0 auto;
     color: #8492A6;
 
   }

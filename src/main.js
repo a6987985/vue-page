@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import Animate from 'vue2-animate/dist/vue2-animate.css'
+import Animate from 'animate.css'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 

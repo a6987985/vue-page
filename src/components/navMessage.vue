@@ -49,7 +49,7 @@
   }
 
   .table {
-    margin: 10px 0;
+    margin: 4px 0;
   }
 
   table td {
