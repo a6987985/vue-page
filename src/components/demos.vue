@@ -6,10 +6,10 @@
       <div class="flip">
         <router-link to="/demos/canvasDraw">
           <div class="front">
-            <div class="content">极简天气</div>
+            <div class="content">Canvas绘图板</div>
           </div>
           <div class="back">
-            <div class="content">Vue/Element ui/Ajax</div>
+            <div class="content">Vue/Element UI/</div>
           </div>
         </router-link>
       </div>
@@ -18,10 +18,10 @@
       <div class="flip">
         <router-link to="/demos/traversal">
           <div class="front">
-            <div class="content">天猫页面布局</div>
+            <div class="content">JS原生遍历树</div>
           </div>
           <div class="back">
-            <div class="content">HTML/CSS/JS</div>
+            <div class="content">CSS/JS</div>
           </div>
         </router-link>
       </div>
@@ -30,10 +30,10 @@
       <div class="flip">
         <router-link to="/demos/3d">
           <div class="front">
-            <div class="content">自定义播放器控件</div>
+            <div class="content">CSS3实现3D轮播图</div>
           </div>
           <div class="back">
-            <div class="content">JavaScript</div>
+            <div class="content">CSS3</div>
           </div>
         </router-link>
       </div>
@@ -54,10 +54,10 @@
       <div class="flip">
         <router-link to="">
           <div class="front">
-            <div class="content">Canvas绘图板</div>
+            <div class="content">5</div>
           </div>
           <div class="back">
-            <div class="content">Canvas/JavaScript</div>
+            <div class="content">5</div>
           </div>
         </router-link>
       </div>
@@ -66,10 +66,10 @@
       <div class="flip">
         <router-link to="">
           <div class="front">
-            <div class="content">课程表</div>
+            <div class="content">6</div>
           </div>
           <div class="back">
-            <div class="content">Canvas/JavaScript</div>
+            <div class="content">6</div>
           </div>
         </router-link>
       </div>
